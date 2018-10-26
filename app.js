@@ -1,4 +1,4 @@
-//this is for the carousel only
+//this is for the carousel.
 var slideIndex = 0;
 showSlides();
 
@@ -13,9 +13,27 @@ showSlides();
 	    slides[slideIndex-1].style.display = "block"; 
 	    setTimeout(showSlides, 2000); // Change image every 2 seconds
 		}
-//this is for the hamburger
 
-//this is for the modal button
+//Add a button in your navigation that will toggle the visibility of your actual site navigation.
+
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+	function myFunction() {
+	    var x = document.getElementById("myTopnav");
+	    if (x.className === "topnav") {
+	        x.className += " responsive";
+	    } else {
+	        x.className = "topnav";
+	    }
+	}
+
+//Add a button and collapsible description to your portfolio projects so when the user clicks the button the descriptions expand and collapse.
+
+
+
+//Create a modal box that pops up with your bio information whenever a button or link is pressed.
+
+
 
 
 
