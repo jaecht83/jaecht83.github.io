@@ -11,7 +11,7 @@ showSlides();
 	    slideIndex++;
 	    if (slideIndex > slides.length) {slideIndex = 1} 
 	    slides[slideIndex-1].style.display = "block"; 
-	    setTimeout(showSlides, 2000); // Change image every 2 seconds
+	    setTimeout(showSlides, 3000); // Change image every 2 seconds
 		}
 
 //Add a button in your navigation that will toggle the visibility of your actual site navigation.
@@ -29,11 +29,22 @@ showSlides();
 
 //Add a button and collapsible description to your portfolio projects so when the user clicks the button the descriptions expand and collapse.
 
+var coll = document.getElementsByClassName("collapsible");
+var i;
 
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
 
 //Create a modal box that pops up with your bio information whenever a button or link is pressed.
-
-
 
 
 

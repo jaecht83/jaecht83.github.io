@@ -5,8 +5,15 @@
   	padding: 0;
   	color: #000000;
   	justify-content: space-around;
- 	font-family: Arial, Helvetica, sans-serif;
+ 	  font-family: Arial, Helvetica, sans-serif;
+}
 
+.container{
+  min-width: 150px;
+}
+
+.container2{
+  min-width: 150px;
 }
 
 /*This is for certain things such as header, body, any p tags and h1*/
@@ -15,71 +22,10 @@
 	background-color: #1320A0;
 	border-radius: 10px 10px 10px 10px;
 	color: #ddd;
-  	font-size: 95%;
-  	padding: 15px;
-  	text-align: center;
-  	margin-bottom: 1rem;
-  	margin-top: 1rem;
-}
+  font-size: 95%;
+  padding: 15px;
+  text-align: center;
 
-/* Add a black background color to the top navigation link */
-.topnav {
-    background-color: #333;
-    overflow: hidden;
-    border-radius: 11px;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 16px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    border-radius: 11px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
-/* Add an active class to highlight the current page */
-.active {
-    background-color: #4CAF50;
-    color: white;
-}
-
-/* Hide the link that should open and close the topnav on small screens */
-.topnav .icon {
-    display: none;
-}
-
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-    float: left;
-    display: block;
-  }
-}
-
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
 }
 
 body {
@@ -105,7 +51,6 @@ h1 {
   	padding: 11px;
 }
 
-
 /*This is for everything in section 1, name-graf and image, including phone and email*/
 .name_graf p{
 	padding: 15px;
@@ -117,10 +62,10 @@ h1 {
 }
 
 .name_graf nav ul li{
-  	text-decoration: none;
-  	text-align: center;
-  	background-color: #888993;
-  	border-color: #5A5B66;
+  text-decoration: none;
+  text-align: center;
+  background-color: #888993;
+  border-color: #5A5B66;
 
 }
 
@@ -135,6 +80,11 @@ h1 {
 
 .email{
 	background-color: #888993;
+}
+
+.page2link{
+  background-color: #888993;
+  border-color: #5A5B66;
 }
 
 /*This is for everything in section 2*/
@@ -159,7 +109,6 @@ h1 {
 }
 
 /*This is for everything in section 4*/
-
 .javainfo{
 	background-color: #888993;
 	border-color: #5A5B66;
@@ -189,6 +138,43 @@ h1 {
 	border-color: #5A5B66;
 }
 
+/*This is for everything in section 5, projects*/
+.section_5_Projects{
+  background-color: #888993;
+  border-color: #5A5B66;
+}
+
+.projects{
+  background-color: #888993;
+  border-color: #5A5B66;
+}
+
+/*This is for everything related to hovers and links*/
+a:hover {
+  background-color: #757FE4;
+}
+
+a:active{
+  background-color: #757FE4;
+}
+
+/*This is for everything in footers and final sections*/
+footer{
+  background-color: #1320A0;
+  border-radius: 10px 10px 10px 10px;
+  color: ##ddd;
+  display: flex;
+  font-size: 140%;
+  text-align: center;
+  padding: 20px;
+}
+small{
+  color: #ffffff;
+}
+
+
+/*This section is for new things added as of 10/26 */
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 600px;
@@ -199,21 +185,6 @@ h1 {
 /* Hide the images by default */
 .mySlides {
     display: none;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -26px;
-  padding: 18px;
-  color: white;
-  font-weight: bold;
-  font-size: 14px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
 }
 
 /* Next & previous buttons */
@@ -245,7 +216,7 @@ h1 {
 /* Caption text */
 .text {
   color: ##3f4349;
-  font-size: 13px;
+  font-size: 14px;
   padding: 10px 10px;
   position: absolute;
   bottom: 10px;
@@ -300,39 +271,98 @@ h1 {
   to {opacity: 1}
 }
 
-/*This is for everything in section 5, projects*/
-.section_5_Projects{
-	background-color: #888993;
-	border-color: #5A5B66;
+/* Add a black background color to the top navigation link */
+.topnav {
+    background-color: #99A2B5;
+    overflow: hidden;
+    border-radius: 11px;
 }
 
-.projects{
-	background-color: #888993;
-	border-color: #5A5B66;
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    background-color: #99A2B5;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 11px;
 }
 
-/*This is for everything related to hovers and links*/
-a:hover {
-	background-color: #757FE4;
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #7680E2;
+    color: black;
 }
 
-a:active{
-	background-color: #757FE4;
+/* Add an active class to highlight the current page */
+.active {
+    background-color: #7680E2;
+    color: white;
 }
 
-/*This is for everything in footers and final sections*/
-footer{
-	background-color: #1320A0;
- 	border-radius: 10px 10px 10px 10px;
-  	color: ##ddd;
-  	display: flex;
-  	font-size: 140%;
-  	text-align: center;
-  	padding: 20px;
-}
-small{
-	color: #ffffff;
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
 }
 
-/* TO DO LIST
-INSERT BUTTON ICONS FOR VARIOUS LINKS*/
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover{
+  background-color: #848B96;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: left;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color:#888993;
+  color: #DDDDDD;
+  cursor: pointer;
+  padding: 12px;
+  width: 100%;
+  text-align: center;
+  outline: none;
+  font-size: 16px;
+  border-radius: 11px;
+  border: 1px solid #fff;
+  border-color: #5A5B66;
+  margin: auto;
+  position: relative;
+ 
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 15px 15px 15px 10px;
+  color: #FFFFFF;
+  border-radius: 14px;
+  text-align: center;
+  display: none;
+  overflow: visible;
+  background-color: #888993;
+}

@@ -3,10 +3,28 @@
 	flex-direction: column;
 	border: 1px solid #fff;
   	padding: 1rem;
-  	max-width: 90rem;
+  	min-width: 150px;
   	min-height: 100vh;
   	margin: auto;
   	position: relative;
+}
+
+/*container2 added 10/27*/
+.container2{
+	flex-direction: row;
+	border: 1px solid #fff;
+  	padding: 1rem;
+  	min-width: 150px;
+  	min-height: 100vh;
+  	margin: 1rem;
+  	padding: 1rem;
+  	position: relative;
+}
+
+.collapsible{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 1rem;
 }
 
 .head{
@@ -18,7 +36,8 @@
 .hero_tag header{
 	justify-content: center;
 	align-items: center;
-
+	margin-bottom: 1rem;
+  	margin-top: 1rem;
 }
 
 .section_1_Name{
@@ -78,8 +97,19 @@
 	margin: 1rem 0;
 	position: relative;
 	width: 108%;
+	border-color: #5A5B66;
+	border-radius: 11px;
+}
+
+/*just for page 2 link added 10/27*/
+.page2link{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 1rem;
 	border: 1px black solid;
 	border-radius: 11px;
+	border-color: #5A5B66;
 }
 
 .aboutme p{
