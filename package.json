@@ -1,0 +1,24 @@
+{
+  "name": "jaecht83.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^23.6.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaecht83/jaecht83.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaecht83/jaecht83.github.io/issues"
+  },
+  "homepage": "https://github.com/jaecht83/jaecht83.github.io#readme"
+}
