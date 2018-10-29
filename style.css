@@ -1,194 +1,337 @@
 /*This is for everything*/
 * {
-  	box-sizing: border-box;
-  	margin: 0;
-  	padding: 0;
-  	color: #000000;
-  	justify-content: space-around;
- 	font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+.container{
+  min-width: 150px;
+}
+
+.container2{
+  min-width: 150px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #000000;
+  justify-content: space-around;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /*This is for certain things such as header, body, any p tags and h1*/
 .hero_tag header {
-	display: flex;
-	background-color: #1320A0;
-	border-radius: 10px 10px 10px 10px;
-	color: #ddd;
-  	font-size: 95%;
-  	padding: 15px;
-  	text-align: center;
-  	margin-bottom: 1rem;
-  	margin-top: 1rem;
+  display: flex;
+  background-color: #1320A0;
+  border-radius: 10px 10px 10px 10px;
+  color: #ddd;
+  font-size: 95%;
+  padding: 15px;
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
-/* Add a black background color to the top navigation link */
-.topnav {
-    background-color: #333;
-    overflow: hidden;
-    border-radius: 11px;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 16px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    border-radius: 11px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
-/* Add an active class to highlight the current page */
-.active {
-    background-color: #4CAF50;
-    color: white;
-}
-
-/* Hide the link that should open and close the topnav on small screens */
-.topnav .icon {
-    display: none;
-}
-
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-    float: left;
-    display: block;
-  }
-}
-
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
+.fun_hero_tag header {
+  display: flex;
+  background-color: #1320A0;
+  border-radius: 10px 10px 10px 10px;
+  color: #ddd;
+  font-size: 95%;
+  padding: 15px;
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 body {
-	display: flex;
-  	text-decoration: none;
-  	background-color: #7680E2;
-  	padding: 10px;
-  	margin-top: 10px;  	
+  display: flex;
+    text-decoration: none;
+    background-color: #7680E2;
+    padding: 10px;
+    margin-top: 10px;   
 }
 
 p {
-	display: flex;
-	text-decoration: none;
-	background-color: #7680E2;
-	text-align: center;
-	padding: 1px;
-	justify-content: space-around;
-	margin-top: 10px;	
+  display: flex;
+  text-decoration: none;
+  background-color: #7680E2;
+  text-align: center;
+  padding: 1px;
+  justify-content: space-around;
+  margin-top: 10px; 
 }
 
 h1 {
-  	color: #FFFFFF;
-  	padding: 11px;
+    color: #FFFFFF;
+    padding: 11px;
 }
-
 
 /*This is for everything in section 1, name-graf and image, including phone and email*/
 .name_graf p{
-	padding: 15px;
-	background-color: #7680E2;
-	justify-content: space-around;
-	text-align: center;
-	margin-top: 10px;
-	border-color: #5A5B66;
+  padding: 15px;
+  background-color: #7680E2;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 10px;
+  border-color: #5A5B66;
 }
 
 .name_graf nav ul li{
-  	text-decoration: none;
-  	text-align: center;
-  	background-color: #888993;
-  	border-color: #5A5B66;
-
+  text-decoration: none;
+  text-align: center;
+  background-color: #888993;
+  border-color: #5A5B66;
 }
 
 .name_image img{
-	background-color: #888993;
-	border-color: #5A5B66;
+  background-color: #888993;
+  border-color: #5A5B66;
 }
 
 .phone{
-	background-color: #888993;
+  background-color: #888993;
 }
 
 .email{
-	background-color: #888993;
+  background-color: #888993;
+}
+
+.page2link{
+  background-color: #888993;
+  border-color: #5A5B66;
+}
+
+/*This is for stuff on NewFun section 1*/
+
+.fun_nav p{
+  padding: 15px;
+  background-color: #7680E2;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 10px;
+  border-color: #5A5B66;
+  list-style-type: none;
+
+}
+
+.fun_nav nav ul li{
+  text-decoration: none;
+  text-align: center;
+  background-color: #888993;
+  border-color: #5A5B66;
+  padding: 1rem;
+  margin: 1rem 0;
+  width: 100%;
+  border-color: #5A5B66;
+  list-style-type: none;
+
 }
 
 /*This is for everything in section 2*/
 .progoals p{
-	color: #000000;
+  color: #000000;
 }
 
 /*This is for everything in section 3*/
 .linkedin{
-	background-color: #888993;
-	border-color: #5A5B66;
+  background-color: #888993;
+  border-color: #5A5B66;
 }
 
 .codepen{
-	background-color: #888993;
-	border-color: #5A5B66;
+  background-color: #888993;
+  border-color: #5A5B66;
 }
 
 .github{
-	background-color: #888993;
-	border-color: #5A5B66;
+  background-color: #888993;
+  border-color: #5A5B66;
 }
 
 /*This is for everything in section 4*/
-
 .javainfo{
-	background-color: #888993;
-	border-color: #5A5B66;
+  background-color: #888993;
+  border-color: #5A5B66;
 }
 
 .htmlinfo{
-	background-color: #888993;
-	border-color: #5A5B66;
+  background-color: #888993;
+  border-color: #5A5B66;
 }
 
 .flexboxinfo{
-	background-color: #888993;
-	border-color: #5A5B66;
+  background-color: #888993;
+  border-color: #5A5B66;
 }
 
 .githubinfo{
-	background-color: #888993;
-	border-color: #5A5B66;
+  background-color: #888993;
+  border-color: #5A5B66;
 }
 
 .mvcspringinfo{
-	background-color: #888993;
-	border-color: #5A5B66;
+  background-color: #888993;
+  border-color: #5A5B66;
 }
 
 .projects img{
-	border-color: #5A5B66;
+  border-color: #5A5B66;
 }
 
+/*This is for everything in section 5, projects*/
+.section_5_Projects{
+  background-color: #888993;
+  border-color: #5A5B66;
+}
+
+.projects{
+  background-color: #888993;
+  border-color: #5A5B66;
+}
+
+/*This is for everything in section 6, cars*/
+.carsummary p{
+  background-color: #888993;
+  padding: 5px;
+  margin: 0.5rem 0;
+  width: 100%;
+  border-color: #5A5B66;
+  border-radius: 11px;
+  text-align: center;
+
+}
+.carsummary h3{
+  text-align: center;
+  padding: 4px;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.section_6_Cars{
+  background-color: #888993;
+  border-color: #5A5B66;
+  border-radius: 11px;
+}
+.crownvic img{
+  text-align:center;
+  width: 70%;
+  display:block;
+  margin:auto;
+}
+.benz img{
+  align-content: center;
+  width:70%;
+  display:block;
+  margin:auto;
+}
+
+.typhoon img{
+  align-content: center;
+  width:70%;
+  display:block;
+  margin:auto;
+}
+
+.crownvic p{
+  margin: 1rem 0;
+}
+
+.benz p{
+  margin: 1rem 0;
+}
+
+.typhoon p{
+  margin: 1rem 0;
+}
+
+
+/*This is for everything in section 7, races*/
+.racesummary p {
+  background-color: #888993;
+  padding: 5px;
+  margin: 0.5rem 0;
+  width: 100%;
+  border-color: #5A5B66;
+  border-radius: 11px;
+  text-align: center;
+}
+
+.racesummary h3{
+  text-align: center;
+  padding: 1px;
+  width: 100%;
+}
+.section_7_Races{
+  background-color: #888993;
+  border-color: #5A5B66;
+  border-radius: 11px;
+}
+
+.cbus img{
+  align-content: center;
+  width:70%;
+  display:block;
+  margin:auto;
+}
+
+.cle img{
+  align-content: center;
+  width:70%;
+  display:block;
+  margin:auto;
+}
+
+.cin img{
+  align-content: center;
+  width:70%;
+  display:block;
+  margin:auto;
+}
+
+.cbus p{
+  margin: 1rem 0;
+}
+
+.cle p{
+  margin: 1rem 0;
+}
+
+.cin p{
+  margin: 1rem 0;
+}
+/*This is for everything related to hovers and links*/
+a:hover {
+  background-color: #757FE4;
+}
+
+.fun_nav a:hover{
+  background-color: #757FE4;
+}
+
+a:active{
+  background-color: #757FE4;
+}
+
+/*This is for everything in footers and final sections*/
+footer{
+  background-color: #1320A0;
+  border-radius: 10px 10px 10px 10px;
+  color: ##ddd;
+  display: flex;
+  font-size: 140%;
+  text-align: center;
+  padding: 20px;
+}
+
+small{
+  color: #ffffff;
+}
+
+/*This section is for new things added as of 10/26 */
 /* Slideshow container */
 .slideshow-container {
   max-width: 600px;
@@ -199,21 +342,6 @@ h1 {
 /* Hide the images by default */
 .mySlides {
     display: none;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -26px;
-  padding: 18px;
-  color: white;
-  font-weight: bold;
-  font-size: 14px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
 }
 
 /* Next & previous buttons */
@@ -245,7 +373,7 @@ h1 {
 /* Caption text */
 .text {
   color: ##3f4349;
-  font-size: 13px;
+  font-size: 14px;
   padding: 10px 10px;
   position: absolute;
   bottom: 10px;
@@ -300,39 +428,141 @@ h1 {
   to {opacity: 1}
 }
 
-/*This is for everything in section 5, projects*/
-.section_5_Projects{
-	background-color: #888993;
-	border-color: #5A5B66;
+/* Add a black background color to the top navigation link */
+.topnav {
+    background-color: #99A2B5;
+    overflow: hidden;
+    border-radius: 11px;
 }
 
-.projects{
-	background-color: #888993;
-	border-color: #5A5B66;
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    background-color: #99A2B5;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 11px;
 }
 
-/*This is for everything related to hovers and links*/
-a:hover {
-	background-color: #757FE4;
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #7680E2;
+    color: black;
 }
 
-a:active{
-	background-color: #757FE4;
+/* Add an active class to highlight the current page */
+.active {
+    background-color: #7680E2;
+    color: white;
 }
 
-/*This is for everything in footers and final sections*/
-footer{
-	background-color: #1320A0;
- 	border-radius: 10px 10px 10px 10px;
-  	color: ##ddd;
-  	display: flex;
-  	font-size: 140%;
-  	text-align: center;
-  	padding: 20px;
-}
-small{
-	color: #ffffff;
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
 }
 
-/* TO DO LIST
-INSERT BUTTON ICONS FOR VARIOUS LINKS*/
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover{
+  background-color: #848B96;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: left;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color:#888993;
+  color: #DDDDDD;
+  cursor: pointer;
+  padding: 12px;
+  width: 100%;
+  text-align: center;
+  outline: none;
+  font-size: 16px;
+  border-radius: 11px;
+  border: 1px solid #fff;
+  border-color: #5A5B66;
+  margin: auto;
+  position: relative;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 15px 15px 15px 10px;
+  color: #FFFFFF;
+  border-radius: 14px;
+  text-align: center;
+  display: none;
+  overflow: visible;
+  background-color: #888993;
+}
+
+/*367 onward is modal box*/
+.modal {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #454850;
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.1);  
+    z-index: 10040;
+    overflow: auto;
+    overflow-y: auto;
+    border-radius: 11px;
+}
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #454850;
+    padding: 1rem 1.5rem;
+    width: 20rem;
+    border-radius: 11px; /*change to 0.5rem if needed*/
+}
+.close-button {
+    float: right;
+    width: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    background-color: #667EBD;
+}
+.close-button:hover {
+    background-color: #27282C;
+}
+.show-modal {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
