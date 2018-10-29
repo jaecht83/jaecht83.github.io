@@ -3,22 +3,11 @@
 	flex-direction: column;
 	border: 1px solid #fff;
   	padding: 1rem;
-  	max-width: 100rem;
+  	max-width: 90rem;
   	min-height: 100vh;
   	margin: auto;
   	position: relative;
 }
-
-.container2{
-	display: flex;
-	flex-direction: column;
-	border: 1px solid #fff;
-  	padding: 1rem;
-  	max-width: 100rem;
-  	min-height: 100vh;
-  	margin: auto;
-  	position: relative;
-}	
 
 .head{
 	display: flex;
@@ -29,6 +18,7 @@
 .hero_tag header{
 	justify-content: center;
 	align-items: center;
+
 }
 
 .section_1_Name{
@@ -88,41 +78,6 @@
 	margin: 1rem 0;
 	position: relative;
 	width: 108%;
-	border: 1px black solid;
-	border-radius: 11px;
-}
-
-.page2link{
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	padding: 1rem;
-	border: 1px black solid;
-	border-radius: 11px;
-	border-color: #5A5B66;
-}
-
-.fun_nav nav ul{
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	padding: 1rem;
-	margin: 2px;
-	width: 100%;
-	flex-basis: content;
-	border: 1px black solid;
-	border-radius: 11px;
-	margin-bottom: 15px;
-}
-
-.fun_nav nav li{
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	padding: 2rem;
-	margin: 2px;
-	width: 95%
-	flex-basis: content;
 	border: 1px black solid;
 	border-radius: 11px;
 }
@@ -203,8 +158,9 @@
 	border-radius: 11px;
 	width: 48%;
 	border-color: #5A5B66;
+	
+	
 }
-
 .github{
 	display: flex;
 	flex-direction: row;
@@ -216,8 +172,8 @@
 	border-radius: 11px;
 	width: 48%;
 	border-color: #5A5B66;
-}
 
+}
 .codepen{
 	display: flex;
 	flex-direction: row;
@@ -229,6 +185,7 @@
 	border-radius: 11px;
 	width: 48%;
 	border-color: #5A5B66;
+	
 }
 
 .section_4_Skills{
@@ -349,7 +306,7 @@
 	border-radius: 11px;
 	align-items: center;
 
-.footer {
+.footer{
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -367,48 +324,4 @@
   overflow: hidden;
   box-shadow: 2px 2px 3px black inset;
   transition: 0.5s;
-}
-
-.section_6_Projects{
-	display: flex;
-	flex-direction: row;
-	margin: 10px;
-	padding: 10px;
-	justify-content: center;
-	border: 1px black solid;
-	border-radius: 11px;
-	align-items: center;
-	border-color: #000000;
-}
-
-.car_images{
-	margin: 10px;
-	padding: 10px;
-	flex-basis: auto;
-	border: 1px black solid;
-	border-radius: 11px;
-	justify-content: center;
-	border-color: #5A5B66;
-}
-
-.section_7_Projects{
-	display: flex;
-	flex-direction: row;
-	margin: 10px;
-	padding: 10px;
-	justify-content: center;
-	border: 1px black solid;
-	border-radius: 11px;
-	align-items: center;
-	border-color: #000000;
-}
-
-.run_images{
-	margin: 10px;
-	padding: 10px;
-	flex-basis: auto;
-	border: 1px black solid;
-	border-radius: 11px;
-	justify-content: center;
-	border-color: #5A5B66;
 }
